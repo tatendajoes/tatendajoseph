@@ -84,7 +84,8 @@
     /* EACH CARD */
     .project-card {
       flex: 0 0 250px;
-      height: 150px;
+      width: 300px;
+      height: auto;
       background: white;
       border: 1px solid #ddd;
       border-radius: 8px;
@@ -93,8 +94,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: bold;
-      font-size: 1.1rem;
+      font-size: 0.1rem;
     }
 
     </style>
@@ -151,7 +151,10 @@
         <section id="projects" class="projects-section">
             <h2>Highlighted Projects</h2>
              <div class="projects-carousel" id="projectsCarousel">
-                  <div class="project-card"><h3>AI4ALL Capstone</h3> <p>Credit Card Fraud Detection using Autoencoder Neural Network.</p></div>
+                  <div class="project-card">
+                    <img src="resources/headshot.png" alt="About me image placeholder" width= auto  style="display: block; margin: 0 auto; height: auto;">
+                    <h3>AI4ALL Capstone</h3> <p>Credit Card Fraud Detection using Autoencoder Neural Network.</p>
+                </div>
                   <div class="project-card"><h3>Mastercard Data Challenge (2nd Place)</h3> <p>Ridge Regression analysis with high predictive accuracy.</p></div>
                   <div class="project-card"><h3>Domestic Methane Detection IoT</h3> <p>Credit Card Fraud Detection using Autoencoder Neural Network.</p></div>
                   <div class="project-card"><h3>AI4ALL Capstone</h3> <p>Real-time safety monitoring with Arduino and MQ-4 sensors.</p></div>
