@@ -1,0 +1,47 @@
+Real‑Time Classroom Analysis System — Vision pipeline detects students, tracks engagement, delivers dashboards, enabling teachers to adjust pacing, foster interaction, improve learning outcomes live.
+
+AI‑Based Fault Detection for Industrial Equipment — FPGA collects vibration signals, AI model identifies anomalies early, allowing predictive maintenance, reducing downtime, costs, ensuring operational safety continuity [Current].
+
+Freund: AI‑Powered Emotional Support Companion — Multimodal chatbot analyzes facial cues, speech, context; offers empathetic encouragement, activities, resources, enhancing users' mental wellbeing, confidence, daily.
+
+
+
+
+
+
+
+Methane Gas Detector IoT — Arduino‑based sensor continuously samples air, detects methane spikes, triggers alarms, enabling rapid response, preventing hazardous leaks, ensuring facility safety.
+
+IEEE SoutheastCon Robotics Project — Raspberry Pi and Arduino coordinate motor control, AprilTag localization, completing autonomous tasks at competition, demonstrating robust design and teamwork excellence.
+
+CodePath Web‑Development Capstone — Developed Web using HTML, CSS, and JavaScript that promoted social change. 
+
+
+
+
+
+Geico Boat‑Insurance Marketing Toolkit — Created flyers, presentations, referral program, leveraging direct mail, partnerships, social media to engage boat owners, promote Geico coverage incentives successfully.
+
+Relativistic Jets Simulation — MPI Fortran simulation models astrophysical relativistic jets, analyzing plasma dynamics.
+
+
+
+
+
+DARPA Cybersecurity Dataset Exploration — Processed DARPA network traffic, engineered features, applied anomaly detection, uncovering attack patterns, contributing insights for resilient cyber defense methodologies development.
+
+AI4ALL Credit‑Card Fraud Detection — Trained unsupervised models on transaction data, predicted fraudulent activities, demonstrating AI's potential for financial security and ethical technology education awareness.
+
+
+
+Amazon Design Challenge — Reimagined mainstream platforms for autistic young adults, integrating inclusive UX, calming visuals, predictable navigation, customizable sensory settings improving accessibility significantly.
+
+
+
+IoT Water Purity & Security Checker — Sensors measure turbidity, contaminants; machine learning classifies bacterial presence, sending smartphone alerts, ensuring safe drinking water access in underserved communities.
+
+
+
+Mastercard Data Science Challenge
+
+Mastercard Data Science Challenge — Explored Mastercard IGS data for Miami‑Dade, built predictive algorithms, identified potential growth factors, guiding economic development strategies.
