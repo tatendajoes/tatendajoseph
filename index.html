@@ -89,92 +89,121 @@
         Design</p>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Section (Vertical with "Show More" button) -->
     <section id="projects" class="mt-12">
-      <h2 class="text-2xl font-semibold mb-4">Highlighted Projects</h2>
-      <div id="projectsCarousel" class="flex space-x-6 overflow-x-auto py-4">
-        <!-- Project Card 1 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+      <h2 class="text-2xl font-semibold mb-6">Highlighted Projects</h2>
+      <div id="projectsList" class="space-y-6">
+        <!-- First 4 visible by default -->
+        <div class="project-item bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/master.jpg" alt="Mastercard Data Challenge"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">Mastercard Data Challenge</h3>
-          <p class="text-gray-600 text-sm">Explored Mastercard IGS data for Miami-Dade, built predictive algorithms,
-            identified potential growth factors, guiding economic development strategies.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Mastercard Data Challenge</h3>
+            <p class="text-gray-600 text-sm">Explored Mastercard IGS data for Miami-Dade, built predictive algorithms,
+              identified potential growth factors, guiding economic development strategies.</p>
+          </div>
         </div>
-        <!-- Project Card 2 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/methane.jpg" alt="Domestic Methane Detection IoT"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">Domestic Methane Detection IoT</h3>
-          <p class="text-gray-600 text-sm">Arduino-based sensor continuously samples air, detects methane spikes,
-            triggers alarms, enabling rapid response, preventing hazardous leaks, ensuring facility safety.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Domestic Methane Detection IoT</h3>
+            <p class="text-gray-600 text-sm">Arduino-based sensor continuously samples air, detects methane spikes,
+              triggers alarms, enabling rapid response, preventing hazardous leaks, ensuring facility safety.</p>
+          </div>
         </div>
-        <!-- Project Card 3 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
-          <img src="resources/freund.png" alt="Freund" class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">Freund: AI-Powered Emotional Support Companion</h3>
-          <p class="text-gray-600 text-sm">Multimodal chatbot analyzes facial cues, speech, context; offers
-            empathetic encouragement, activities, resources, enhancing users' mental wellbeing, confidence, daily.</p>
+
+        <div class="project-item bg-white rounded-xl shadow-lg p-6 flex">
+          <img src="resources/freund.png" alt="Freund"
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Freund: AI-Powered Emotional Support Companion</h3>
+            <p class="text-gray-600 text-sm">Multimodal chatbot analyzes facial cues, speech, context; offers empathetic
+              encouragement, activities, resources, enhancing users' mental wellbeing, confidence, daily.</p>
+          </div>
         </div>
-        <!-- Project Card 4 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/robot.png" alt="IEEE SoutheastCon Robotics Project"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">IEEE SoutheastCon Robotics Project</h3>
-          <p class="text-gray-600 text-sm">Raspberry Pi and Arduino coordinate motor control, AprilTag localization,
-            completing autonomous tasks at competition, demonstrating robust design and teamwork excellence.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">IEEE SoutheastCon Robotics Project</h3>
+            <p class="text-gray-600 text-sm">Raspberry Pi and Arduino coordinate motor control, AprilTag localization,
+              completing autonomous tasks at competition, demonstrating robust design and teamwork excellence.</p>
+          </div>
         </div>
-        <!-- Project Card 5 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <!-- Hidden items -->
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/ideas.jpg" alt="CodePath Web-Development Capstone"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">CodePath Web-Development Capstone</h3>
-          <p class="text-gray-600 text-sm">Developed web platform using HTML, CSS, and JavaScript that promoted social
-            change.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">CodePath Web-Development Capstone</h3>
+            <p class="text-gray-600 text-sm">Developed web platform using HTML, CSS, and JavaScript that promoted social
+              change.</p>
+          </div>
         </div>
-        <!-- Project Card 6 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/jet.jpg" alt="Relativistic Jets Simulation"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">Relativistic Jets Simulation</h3>
-          <p class="text-gray-600 text-sm">MPI Fortran simulation models astrophysical relativistic jets, analyzing
-            plasma dynamics.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Relativistic Jets Simulation</h3>
+            <p class="text-gray-600 text-sm">MPI Fortran simulation models astrophysical relativistic jets, analyzing
+              plasma dynamics.</p>
+          </div>
         </div>
-        <!-- Project Card 7 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/motor.png" alt="AI-Based Fault Detection for Industrial Equipment"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">AI-Based Fault Detection for Industrial Equipment</h3>
-          <p class="text-gray-600 text-sm">FPGA collects vibration signals, AI model identifies anomalies early,
-            allowing predictive maintenance, reducing downtime, costs, ensuring operational safety continuity
-            [Current].</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">AI-Based Fault Detection for Industrial Equipment</h3>
+            <p class="text-gray-600 text-sm">FPGA collects vibration signals, AI model identifies anomalies early,
+              allowing predictive maintenance, reducing downtime, costs, ensuring operational safety continuity
+              [Current].</p>
+          </div>
         </div>
-        <!-- Project Card 8 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/codepath.jpg" alt="DARPA Cybersecurity Dataset Exploration"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">DARPA Cybersecurity Dataset Exploration</h3>
-          <p class="text-gray-600 text-sm">Processed DARPA network traffic, engineered features, applied anomaly
-            detection, uncovering attack patterns, contributing insights for resilient cyber defense methodologies
-            development.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">DARPA Cybersecurity Dataset Exploration</h3>
+            <p class="text-gray-600 text-sm">Processed DARPA network traffic, engineered features, applied anomaly
+              detection, uncovering attack patterns, contributing insights for resilient cyber defense methodologies
+              development.</p>
+          </div>
         </div>
-        <!-- Project Card 9 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/AI4all.png" alt="AI4ALL Credit-Card Fraud Detection"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">AI4ALL Credit-Card Fraud Detection</h3>
-          <p class="text-gray-600 text-sm">Trained unsupervised models on transaction data, predicted fraudulent
-            activities, demonstrating AI's potential for financial security and ethical technology education
-            awareness.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">AI4ALL Credit-Card Fraud Detection</h3>
+            <p class="text-gray-600 text-sm">Trained unsupervised models on transaction data, predicted fraudulent
+              activities, demonstrating AI's potential for financial security and ethical technology education
+              awareness.</p>
+          </div>
         </div>
-        <!-- Project Card 10 -->
-        <div class="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg p-4">
+
+        <div class="project-item hidden bg-white rounded-xl shadow-lg p-6 flex">
           <img src="resources/amazon.png" alt="Amazon Design Challenge"
-            class="h-32 w-full object-cover rounded-md mb-4" />
-          <h3 class="text-xl font-semibold mb-2">Amazon Design Challenge</h3>
-          <p class="text-gray-600 text-sm">Redesigning Slack channels for readability by introducing Slack Channel
-            Summaries to improve accessibility in design.</p>
+            class="h-24 w-24 object-cover rounded-md mr-6 flex-shrink-0" />
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Amazon Design Challenge</h3>
+            <p class="text-gray-600 text-sm">Redesigning Slack channels for readability by introducing Slack Channel
+              Summaries to improve accessibility in design.</p>
+          </div>
         </div>
+      </div>
+
+      <div class="mt-6 text-center">
+        <button id="showMoreBtn"
+          class="px-6 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition">
+          Show More
+        </button>
       </div>
     </section>
 
@@ -224,32 +253,22 @@
     </div>
   </footer>
 
-  <!-- Carousel Auto-Scroll Script -->
+  <!-- Scripts -->
   <script>
-    (function () {
-      const carousel = document.getElementById('projectsCarousel');
-      const speed = 40; // pixels per second
-      let lastTimestamp = null;
-
-      function step(timestamp) {
-        if (lastTimestamp !== null) {
-          const delta = timestamp - lastTimestamp;
-          const distance = (delta * speed) / 1000;
-          const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-          carousel.scrollLeft = (carousel.scrollLeft + distance) % maxScroll;
-        }
-        lastTimestamp = timestamp;
-        requestAnimationFrame(step);
-      }
-
-      requestAnimationFrame(step);
-    })();
-
     // Mobile menu toggle
     const btn = document.getElementById('menu-btn');
     const menu = document.getElementById('mobile-menu');
     btn.addEventListener('click', () => {
       menu.classList.toggle('hidden');
+    });
+
+    // Show More functionality
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    showMoreBtn.addEventListener('click', () => {
+      document.querySelectorAll('.project-item.hidden').forEach(el => {
+        el.classList.remove('hidden');
+      });
+      showMoreBtn.classList.add('hidden');
     });
   </script>
 </body>
